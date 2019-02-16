@@ -32,6 +32,6 @@ public abstract class Duck {
     }
 
     public void display() {
-        System.out.println("Duck");
+        System.out.println("AbstractDuck");
     }
 }
