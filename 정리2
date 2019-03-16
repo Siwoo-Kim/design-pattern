@@ -1,3 +1,20 @@
+SOLID
+    Single Responsibility Principle (SRP)
+        - A single class should have just a single reason to change.
+        - A single class should have one primary responsibility.
+    Open-Closed Principle (OCP) + Specification
+        - Open for extension but closed for modification. 확장에는 열려 있고 코드 변경에선 닫혀 있음.
+
+
+
+
+
+
+
+
+
+
+
 
 디자인 패턴.
 
@@ -102,6 +119,119 @@
         - 데코레이터는 타겟 객체와 같은 수퍼클래스를 가지고 있기 때문에 변수 레퍼런스에 대신 할당될 수 있다.
         - 데코레이터는 타겟 객체에 어떤 행동을 위임하는 것 외에 원하는 추가적인 작업을 수행할 수 있다.
         - 타겟 객체를 언제든지 감쌀 수 있기에 실행시에 동적으로 추가 기능을 추가할 수 있다. (런타임시 확장)
+
+팩토리 패턴.
+    new 연산자의 문제점.
+        - new 연산자를 사용한다는 것은 특정 구상 클래스의 Instance 를 생성하므로 특정 구현에 의존함을 의미한다.
+        구상 클래스(Concrete Class) 를 바탕으로의 프로그래밍?
+            - 코드를 수정해야 할 가능성이 높아지고, 유연성이 떨어진다.
+            - 추상 클래스(Interface) 에 맞춰서 프로그래밍 하라.
+
+    Simple Factory?
+        - 객체 생성 부분만 캡슐화하여 Factory class 에 정의한다. Simple Factory 은 팩토리 패턴이 아니다.
+    팩토리 패턴의 두가지?
+        - Factory Method Pattern, Factory Pattern.
+
+    Factory Method Pattern.
+        - 팩토리 메서드 패턴에서는 객체를 생성하기 위한 인터페이스를 정의하는데, 어떤 클래스의 인스턴스를 만들지는 서브클래스에서 결정하게 만든다.
+        팩토리 메서리 패턴에선 클래스의 인스턴스를 만드는 일을 서브클래스에 위임한다. (*)
+
+
+        public abstract class Factory {
+
+            public void doSomething(String arg) {
+                Product p = factoryMethod(arg);
+                //Factory 은 p 가 어떤 instance 인지 알지 못한다.
+                //추상 클래스에 의존하여 프로그래밍한다.
+                p.doWork();
+            }
+
+            //Factory Method. 팩토리 역할을 하는 메서드.
+            protected abstract Product factoryMethod(String arg);
+        }
+
+        public static void main(...) {
+            Factory f = new ConcreteFactoryOne();
+            f.doSomething("Arg");
+        }
+
+싱글턴 패턴.
+    - 싱글턴 패턴은 해당 클래스의 instance 가 하나만 만들어지고, 어디서든지 그 인스턴스에 접근할 수 있게한 패턴.
+    - 클래스에서 단 하나뿐인 인스턴스를 관리하도록 한다. (다른 클래스에서 인스턴스를 추가하지 못하도록 한다)
+    - Lazy instantiation 기법을 사용하면 리소스를 절약할 수 있다.
+
+    싱글턴 패턴의 활용? (객체 instance 가 하나만 필요한 상황)
+        ex) Thread Pool, Logger Class, Configuration Class, Accessing resources in shared mode.
+        - 레지스트리 설정이 담겨있는 객체인 경우, 객체가 여러 개 있다면, 다른 설정 내역들이 여러개 생기고 혼란을 야기시킨다.
+        이런 경우, Singleton 패턴을 사용하면 한 어플에서 어떤 객체도 똑같은 자원을 활용할 수 있다.
+
+    싱글턴 패턴 생성하기.
+        - Singleton 의 생성자는 private 으로 지정한다.
+        - instance 을 요청할 땐, 정적 메서드 getInstance() 을 사용한다.
+
+        public class Singleton {
+            private static Singleton instance;
+
+            private Singleton() {}
+
+            public static Singleton getInstance() {
+                //lazy instantiation
+                if (instance == null)
+                    instance = new Singleton();
+                return instance;
+            }
+        }
+
+    싱글턴 패턴의 문제점. (다중 쓰레드시 다중 인스턴스 생성.)
+        public class ChocolateBoiler {
+            private boolean empty;
+            private boolean boiled;
+            private static ChocolateBoiler instance;
+
+            public static void main(String[] args) {
+                Runnable r1 = () -> {
+                    ChocolateBoiler instance = ChocolateBoiler.getInstance();
+                    System.out.println("hash 1: " + instance.hashCode());
+                };
+
+                Runnable r2 = () -> {
+                    ChocolateBoiler instance = ChocolateBoiler.getInstance();
+                    System.out.println("hash 2: " + instance.hashCode());
+                };
+
+                for (int i = 0; i < 10; i++) {
+                    //hash 1: 448899632
+                    //hash 2: 7952345  -- r2 쓰레드에서 다른 instance 가 생성됨.
+                    //hash 1: 448899632
+                    //hash 2: 448899632
+                    //hash 1: 448899632
+                    //hash 2: 448899632
+                    new Thread(r1).start();
+                    new Thread(r2).start();
+                }
+    싱글턴 패턴과 멀티스레딩 문제 해결 방법들?
+        1. 인스턴스를 돌려주는 정적 메서드 getInstance() 를 synchronized 로 선언한다. (메서드 동기화는 성능을 100배 정도 저하시킨다.)
+        2. Lazy instantiation 기법을 사용하지 않고 미리 생성한다.
+        3. DCL (Double-Checking Locking) 을 사용하여 getInstance() 안의 동기화 부분을 줄인다.
+            public class Singleton {
+                private static volatile Singleton instance;
+
+                private Singleton() {}
+
+                public static Singleton getInstance() {
+                    if (instance == null) {
+                        //클래스 Level 의 동기화 블록
+                        synchronized (Singleton.class) {
+                            if (instance == null)
+                                instance = new Singleton();
+                        }
+                    }
+                    return instance;
+                }
+            }
+            volatile?
+                - 쓰레드들에게 CPU 캐쉬가 아닌 MAIN MEMORY 에서 값을 읽어도록 허락한다.
+                즉 volatile 로 선언된 변수는 다중 쓰레들에게 사용되는 변수의 값의 변화에 대한 가시성을 보장시킨다.
 
 
 
