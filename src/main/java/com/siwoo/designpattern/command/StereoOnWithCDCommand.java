@@ -1,10 +1,23 @@
 package com.siwoo.designpattern.command;
 
-/**
- * Created by sm123tt@gmail.com on 2019-03-17
- * Project : design-pattern
- * Github : http://github.com/Siwoo-Kim
- */
+public class StereoOnWithCDCommand implements Command {
+    Stereo stereo;
 
-public class StereoOnWithCDCommand {
+    public StereoOnWithCDCommand(Stereo stereo) {
+        this.stereo = stereo;
+    }
+
+    @Override
+    public void execute() {
+        stereo.on();
+        stereo.setCD();
+        stereo.setVolume(11);
+    }
+
+    @Override
+    public void undo() {
+        stereo.off();
+        stereo.outCD();
+        stereo.setVolume(0);
+    }
 }

@@ -1,10 +1,20 @@
 package com.siwoo.designpattern.command;
 
-/**
- * Created by sm123tt@gmail.com on 2019-03-17
- * Project : design-pattern
- * Github : http://github.com/Siwoo-Kim
- */
-
 public class GarageDoor {
+
+    public void up() {
+        System.out.println("door up");
+    }
+    public void down() {
+        System.out.println("door down");
+    }
+    public void stop() {
+        System.out.println("door stop");
+    }
+    public void lightOn() {
+        System.out.println("light on");
+    }
+    public void lightOff() {
+        System.out.println("light off");
+    }
 }

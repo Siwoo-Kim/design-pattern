@@ -1,10 +1,27 @@
 package com.siwoo.designpattern.adapter.turkey;
 
-/**
- * Created by sm123tt@gmail.com on 2019-04-06
- * Project : design-pattern
- * Github : http://github.com/Siwoo-Kim
- */
+import com.siwoo.designpattern.adapter.duck.Duck;
 
-public class DuckAdapter {
+import java.util.Random;
+
+public class DuckAdapter implements Turkey {
+    private Duck duck;
+    private Random random;
+
+    public DuckAdapter(Duck duck) {
+        this.duck = duck;
+        random = new Random();
+    }
+
+    @Override
+    public void gobble() {
+        duck.quack();
+    }
+
+    @Override
+    public void fly() {
+        if (random.nextInt(5) == 0) {
+            duck.fly();
+        }
+    }
 }

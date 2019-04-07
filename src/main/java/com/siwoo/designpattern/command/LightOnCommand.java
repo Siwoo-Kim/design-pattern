@@ -1,10 +1,20 @@
 package com.siwoo.designpattern.command;
 
-/**
- * Created by sm123tt@gmail.com on 2019-03-17
- * Project : design-pattern
- * Github : http://github.com/Siwoo-Kim
- */
 
-public class LightOnCommand {
+public class LightOnCommand implements Command {
+    private Light light;
+
+    public LightOnCommand(Light light) {
+        this.light = light;
+    }
+
+    @Override
+    public void execute() {
+        light.on();
+    }
+
+    @Override
+    public void undo() {
+        light.off();
+    }
 }

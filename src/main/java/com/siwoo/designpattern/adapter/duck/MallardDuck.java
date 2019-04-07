@@ -1,4 +1,4 @@
-package com.siwoo.designpattern.adapter;
+package com.siwoo.designpattern.adapter.duck;
 
 public class MallardDuck implements Duck {
     @Override

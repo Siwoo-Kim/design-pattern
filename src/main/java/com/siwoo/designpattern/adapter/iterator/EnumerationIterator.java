@@ -1,10 +1,31 @@
 package com.siwoo.designpattern.adapter.iterator;
 
-/**
- * Created by sm123tt@gmail.com on 2019-04-06
- * Project : design-pattern
- * Github : http://github.com/Siwoo-Kim
- */
+import java.util.Enumeration;
+import java.util.Iterator;
 
-public class EnumerationIterator {
+/**
+ * Adapter
+ * @param <E>
+ */
+public class EnumerationIterator<E> implements Iterator<E> {
+    private Enumeration<E> enumeration;
+
+    public EnumerationIterator(Enumeration<E> enumeration) {
+        this.enumeration = enumeration;
+    }
+
+    @Override
+    public boolean hasNext() {
+        return enumeration.hasMoreElements();
+    }
+
+    @Override
+    public E next() {
+        return enumeration.nextElement();
+    }
+
+    @Override
+    public void remove() {
+        throw new UnsupportedOperationException();
+    }
 }

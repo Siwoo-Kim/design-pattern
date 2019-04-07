@@ -2,24 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74b1c857-6f59-43f9-95e0-a5e15b6f1ab5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/ChicagoPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/NYPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/PizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/CheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ChicagoCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ChicagoClamPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ChicagoPepperoniPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ClamPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/NYCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/NYClamPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/NYPepperoniPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/SimplePizzaFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/singleton/chocolatefactory/ChocolateBoiler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/solid/ocp/OCP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/solid/srp/SRP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/AlternatingDinerMenuIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/CafeMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/DinerMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/LeafComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/MenuComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/MenuComposite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/MenuTestDrive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/PancakeHouseMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/Waitress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/templatemethod/CoffeeWithHook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/siwoo/designpattern/singleton/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/designpattern/singleton/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/siwoo/designpattern/singleton/chocolatefactory/ChocolateBoiler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/siwoo/designpattern/singleton/chocolatefactory/ChocolateBoiler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/RemoteControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/RemoteControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/DuckTestDrive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/DuckTestDrive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/EnumerationIteratorAdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/EnumerationIteratorAdapterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/duck/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/duck/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/duck/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/duck/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/duck/TurkeyAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/duck/TurkeyAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/iterator/EnumerationIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/iterator/EnumerationIterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/iterator/IteratorEnumeration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/iterator/IteratorEnumeration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/turkey/DuckAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/turkey/DuckAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/turkey/Turkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/turkey/Turkey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/turkey/WildTurkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/turkey/WildTurkey.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/CommandPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/CommandPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/GarageDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/GarageDoor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/GarageDoorOpenCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/GarageDoorOpenCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/Light.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/LightOffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/LightOffCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/LightOnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/LightOnCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/SimpleRemoteControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/SimpleRemoteControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/Stereo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/Stereo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/StereoOffWithCDCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/StereoOffWithCDCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/StereoOnWithCDCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/StereoOnWithCDCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/templatemethod/CaffeineBeverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/templatemethod/CaffeineBeverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/templatemethod/Coffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/templatemethod/Coffee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/templatemethod/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/templatemethod/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/templatemethod/Tea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/templatemethod/Tea.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/정리2" beforeDir="false" afterPath="$PROJECT_DIR$/정리2" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,6 +53,20 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -72,59 +109,172 @@
     <session id="-1763614414">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
-          <entry key="java" value="158" />
-          <entry key="정리2" value="10" />
+          <entry key="class" value="3" />
+          <entry key="java" value="228" />
+          <entry key="정리" value="1" />
+          <entry key="정리2" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="158" />
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="228" />
+          <entry key="PLAIN_TEXT" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="10901" />
+          <entry key="java" value="18386" />
           <entry key="txt" value="17" />
-          <entry key="정리2" value="9616" />
+          <entry key="정리2" value="14027" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10901" />
-          <entry key="PLAIN_TEXT" value="9635" />
+          <entry key="JAVA" value="18386" />
+          <entry key="PLAIN_TEXT" value="14046" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/정리2">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3385">
-              <caret line="232" column="35" selection-start-line="232" selection-start-column="35" selection-end-line="232" selection-end-column="35" />
+            <state relative-caret-position="209">
+              <caret line="338" column="44" lean-forward="true" selection-start-line="338" selection-start-column="44" selection-end-line="338" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/singleton/chocolatefactory/ChocolateBoiler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/MenuComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="1">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#823#824#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/LeafComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/DinerMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+                <element signature="e#994#995#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/Menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/MenuComposite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="50" column="64" lean-forward="true" selection-start-line="50" selection-start-column="64" selection-end-line="50" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#793#794#0" expanded="true" />
+                <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#1046#1047#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/MenuItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+              <folding>
+                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#858#859#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#943#944#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/MenuTestDrive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/PancakeHouseMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="10" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,10 +283,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/singleton/Singleton.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/Waitress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="17" />
+            <state relative-caret-position="32">
+              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <folding>
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,6 +311,7 @@
     <findStrings>
       <find>swim</find>
       <find>of</find>
+      <find>iterator</find>
     </findStrings>
     <replaceStrings>
       <replace>fly</replace>
@@ -464,57 +621,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/prac/decorator/beverage/Espresso.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/prac/decorator/beverage/decorator/Mocha.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/prac/decorator/beverage/decorator/Soy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/prac/decorator/beverage/Beverage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/prac/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/prac/decorator/beverage/decorator/Whip.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/Pizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/GreakPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/GreakPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/PizzaFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/NYStyleCheezePizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/GreekPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/NYPizzaStore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/NYPizzaFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ChicagoPizzaFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ChicagoStyleCheesePizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/MainStore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ingredient/PizzaIngredientFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ingredient/Dough.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ingredient/Sauce.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ingredient/ThinCrustDough.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ingredient/NYPizzaIngredientFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ingredient/MarinaraSauce.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/NYStyleVeggiePizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/NYStylePepperoniPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/NYStyleCheesePizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/CheezePizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/CheesePizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/CheesePizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/PepperoniPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/ClamPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ClamPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/SimplePizzaFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/NYPizzaStore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/NYCheesePizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/NYClamPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/Pizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/NYPepperoniPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/ChicacoPizzaStore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/ChicagoPizzaStore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ChicagoClamPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ChicagoPepperoniPizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ChicagoCheesePizza.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/PizzaStore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/solid/srp/Journal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/solid/srp/SRP.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/solid/ocp/OCP.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/singleton/Singleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/singleton/chocolatefactory/ChocolateBoiler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/SimpleRemoteControl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/GrarageDoorOpenCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/GarageDoor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/Light.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/Stereo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/Command.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/LightOnCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/LightOffCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/GarageDoorOpenCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/StereoOffWithCDCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/StereoOnWithCDCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/RemoteControl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/CommandPattern.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/Duck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/MallardDuck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/Turkey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/WildTurkey.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/turkey/TurkeyAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/duck/TurkeyAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/turkey/DuckAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/iterator/Iterator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/iterator/Enumeration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/iterator/EnumerationIterator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/iterator/IteratorEnumeration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/DuckTestDrive.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/EnumerationIteratorAdapterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/onlytalktofriends/Car.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/templatemethod/Tea.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/templatemethod/CaffeineBeverage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/templatemethod/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/templatemethod/Coffee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/templatemethod/CoffeeWithHook.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/Iterator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/Menu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/CafeMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/AlternatingDinerMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/AlternatingDinerMenuIterator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/DinerMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/MenuComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/LeafComponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/Waitress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/PancakeHouseMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/MenuTestDrive.java" />
         <option value="$PROJECT_DIR$/정리2" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/MenuComposite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/MenuItem.java" />
       </list>
     </option>
   </component>
@@ -537,6 +694,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -598,44 +756,20 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="siwoo" type="462c0819:PsiDirectoryNode" />
               <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="siwoo" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="singleton" type="462c0819:PsiDirectoryNode" />
-              <item name="chocolatefactory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="design-pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="design-pattern" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="siwoo" type="462c0819:PsiDirectoryNode" />
-              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
-              <item name="solid" type="462c0819:PsiDirectoryNode" />
+              <item name="iterator_composition" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552751791495" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554658241431" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -647,11 +781,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.siwoo.designpattern.command" />
       <recent name="com.siwoo.designpattern.factory.pizza" />
       <recent name="com.siwoo.designpattern.factory" />
       <recent name="com.siwoo.designpattern.factory.pizza.ingredient" />
       <recent name="com.siwoo.designpattern.prac.strategy.game.weapon" />
-      <recent name="com.siwoo.designpattern.prac.strategy.duck" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -666,13 +800,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ChocolateBoiler">
-    <configuration name="ChocolateBoiler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.siwoo.designpattern.singleton.chocolatefactory.ChocolateBoiler" />
+  <component name="RunManager" selected="Application.MenuTestDrive">
+    <configuration name="CommandPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.siwoo.designpattern.command.CommandPattern" />
       <module name="design-pattern_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.siwoo.designpattern.singleton.chocolatefactory.*" />
+          <option name="PATTERN" value="com.siwoo.designpattern.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -680,12 +814,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.siwoo.designpattern.factory.MainStore" />
+    <configuration name="DuckTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.siwoo.designpattern.adapter.DuckTestDrive" />
       <module name="design-pattern_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.siwoo.designpattern.factory.pizza.*" />
+          <option name="PATTERN" value="com.siwoo.designpattern.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -693,12 +827,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OCP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.siwoo.designpattern.solid.ocp.OCP" />
+    <configuration name="EnumerationIteratorAdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.siwoo.designpattern.adapter.EnumerationIteratorAdapterTest" />
       <module name="design-pattern_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.siwoo.designpattern.solid.ocp.*" />
+          <option name="PATTERN" value="com.siwoo.designpattern.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -706,12 +840,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaStore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.siwoo.designpattern.factory.PizzaStore" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.siwoo.designpattern.templatemethod.Main" />
       <module name="design-pattern_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.siwoo.designpattern.factory.*" />
+          <option name="PATTERN" value="com.siwoo.designpattern.templatemethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -719,12 +853,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SRP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.siwoo.designpattern.solid.srp.SRP" />
+    <configuration name="MenuTestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.siwoo.designpattern.iterator_composition.MenuTestDrive" />
       <module name="design-pattern_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.siwoo.designpattern.solid.srp.*" />
+          <option name="PATTERN" value="com.siwoo.designpattern.iterator_composition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -733,19 +867,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MainStore" />
-      <item itemvalue="Application.PizzaStore" />
-      <item itemvalue="Application.SRP" />
-      <item itemvalue="Application.OCP" />
-      <item itemvalue="Application.ChocolateBoiler" />
+      <item itemvalue="Application.CommandPattern" />
+      <item itemvalue="Application.DuckTestDrive" />
+      <item itemvalue="Application.EnumerationIteratorAdapterTest" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MenuTestDrive" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ChocolateBoiler" />
-        <item itemvalue="Application.OCP" />
-        <item itemvalue="Application.SRP" />
-        <item itemvalue="Application.PizzaStore" />
-        <item itemvalue="Application.MainStore" />
+        <item itemvalue="Application.MenuTestDrive" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.EnumerationIteratorAdapterTest" />
+        <item itemvalue="Application.DuckTestDrive" />
+        <item itemvalue="Application.CommandPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -765,7 +899,12 @@
       <workItem from="1550416078366" duration="57000" />
       <workItem from="1550502919736" duration="6199000" />
       <workItem from="1552139736414" duration="14305000" />
-      <workItem from="1552749118559" duration="2948000" />
+      <workItem from="1552749118559" duration="3474000" />
+      <workItem from="1552828879200" duration="1651000" />
+      <workItem from="1552830552325" duration="8396000" />
+      <workItem from="1554560801123" duration="8275000" />
+      <workItem from="1554577972308" duration="1206000" />
+      <workItem from="1554648181778" duration="8168000" />
     </task>
     <task id="LOCAL-00001" summary="DECORATOR PATTERN">
       <created>1550507945857</created>
@@ -778,7 +917,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43853000" />
+    <option name="totallyTimeSpent" value="72075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1088" extended-state="6" />
@@ -790,11 +929,11 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Learn" order="4" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.19829424" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.18123667" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3298647" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32952183" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.3298647" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32952183" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="5" weight="0.329718" />
@@ -808,11 +947,11 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Maven Projects" order="1" />
       <window_info anchor="right" id="Gradle" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32995737" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
     </layout>
@@ -840,306 +979,428 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/prac/decorator/beverage/DarkRoast.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/LightOnCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="7" />
+        <state relative-caret-position="320">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/prac/decorator/beverage/decorator/Condiment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/prac/decorator/beverage/Espresso.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/prac/decorator/beverage/decorator/Mocha.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/prac/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/Command.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/prac/decorator/beverage/decorator/Soy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/Stereo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        <state relative-caret-position="288">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/prac/decorator/beverage/Beverage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/Light.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/RemoteControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/LightOffCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-          </folding>
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/prac/decorator/beverage/Decaf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" selection-start-line="3" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/prac/decorator/beverage/HouseBlend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/prac/decorator/beverage/decorator/Whip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/MainStore.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ingredient/PizzaIngredientFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ingredient/Dough.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ingredient/Sauce.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ingredient/MarinaraSauce.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ingredient/NYPizzaIngredientFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/PizzaFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/NYPizzaFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/GreekPizza.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ChicagoStyleCheesePizza.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ingredient/ThinCrustDough.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ChicagoPizzaFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/NYStyleVeggiePizza.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/NYStylePepperoniPizza.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/NYStyleCheesePizza.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/CheesePizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="37" lean-forward="true" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ClamPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/NYClamPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/NYCheesePizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/Pizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/NYPepperoniPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/PepperoniPizza.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/PizzaStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/ChicagoPizzaStore.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/GarageDoorOpenCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ChicagoCheesePizza.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/StereoOffWithCDCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="304">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ChicagoPepperoniPizza.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/CommandPattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="448">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/ChicagoClamPizza.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/command/StereoOnWithCDCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="304">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/NYPizzaStore.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/turkey/Turkey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="32">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/factory/pizza/SimplePizzaFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/turkey/WildTurkey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/solid/srp/SRP.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/duck/Duck.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        <state relative-caret-position="32">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/duck/MallardDuck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/duck/TurkeyAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/turkey/DuckAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="143" column="43" selection-start-line="143" selection-start-column="43" selection-end-line="143" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Enumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="77" column="6" selection-start-line="77" selection-start-column="6" selection-end-line="77" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="1136" column="38" selection-start-line="1136" selection-start-column="16" selection-end-line="1136" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/iterator/Iterator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/iterator/Enumeration.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/onlytalktofriends.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/onlytalktofriends/Car.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/templatemethod/CoffeeWithHook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="26" column="79" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/templatemethod/Coffee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="2476" column="45" selection-start-line="2476" selection-start-column="45" selection-end-line="2476" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="650" column="28" selection-start-line="650" selection-start-column="28" selection-end-line="650" selection-end-column="28" />
+        <state relative-caret-position="48">
+          <caret line="3" selection-start-line="3" selection-end-line="10" selection-end-column="5" />
           <folding>
-            <element signature="e#26565#26566#0" expanded="true" />
-            <element signature="e#26601#26602#0" expanded="true" />
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/io/PrintStream.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/templatemethod/Tea.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="87" column="36" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="36" />
+        <state relative-caret-position="64">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Runtime.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/templatemethod/CaffeineBeverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/templatemethod/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="38" selection-start-line="38" selection-end-line="42" selection-end-column="18" />
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/DuckTestDrive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1309#1310#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/EnumerationIteratorAdapterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/iterator/EnumerationIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/adapter/iterator/IteratorEnumeration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="89" column="21" lean-forward="true" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="176" column="50" selection-start-line="176" selection-start-column="48" selection-end-line="176" selection-end-column="50" />
+        <state relative-caret-position="232">
+          <caret line="151" column="4" lean-forward="true" selection-start-line="151" selection-start-column="4" selection-end-line="151" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Arrays.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/jre/lib/rt.jar!/java/util/ArrayList.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="3785" column="6" selection-start-line="3785" selection-start-column="6" selection-end-line="3785" selection-end-column="6" />
+        <state relative-caret-position="238">
+          <caret line="652" column="16" selection-start-line="652" selection-start-column="12" selection-end-line="652" selection-end-column="16" />
           <folding>
-            <element signature="e#177013#177014#0" expanded="true" />
-            <element signature="e#177054#177055#0" expanded="true" />
+            <element signature="e#0#32631#0" expanded="true" />
+            <element signature="e#19427#19428#0" expanded="true" />
+            <element signature="e#19498#19499#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/solid/ocp/OCP.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/Iterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="111" column="5" selection-start-line="111" selection-end-line="111" selection-end-column="5" />
+        <state relative-caret-position="80">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/ListIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1743">
+          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/CafeMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/AlternatingDinerMenuIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/PancakeHouseMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="10" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/singleton/chocolatefactory/ChocolateBoiler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/DinerMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="468">
+          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#994#995#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/singleton/Singleton.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/LeafComponent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="17" />
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/Waitress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/MenuTestDrive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/정리2">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3385">
-          <caret line="232" column="35" selection-start-line="232" selection-start-column="35" selection-end-line="232" selection-end-column="35" />
+        <state relative-caret-position="209">
+          <caret line="338" column="44" lean-forward="true" selection-start-line="338" selection-start-column="44" selection-end-line="338" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/MenuComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/MenuComposite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="50" column="64" lean-forward="true" selection-start-line="50" selection-start-column="64" selection-end-line="50" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/siwoo/designpattern/iterator_composition/MenuItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding>
+            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

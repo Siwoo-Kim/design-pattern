@@ -1,4 +1,4 @@
-package com.siwoo.designpattern.adapter;
+package com.siwoo.designpattern.adapter.turkey;
 
 public class WildTurkey implements Turkey {
     @Override

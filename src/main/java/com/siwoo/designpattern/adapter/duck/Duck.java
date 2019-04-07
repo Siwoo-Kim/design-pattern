@@ -1,4 +1,4 @@
-package com.siwoo.designpattern.adapter;
+package com.siwoo.designpattern.adapter.duck;
 
 public interface Duck {
     public void quack();

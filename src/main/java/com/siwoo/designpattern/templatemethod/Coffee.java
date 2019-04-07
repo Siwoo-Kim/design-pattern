@@ -1,10 +1,13 @@
 package com.siwoo.designpattern.templatemethod;
 
-/**
- * Created by sm123tt@gmail.com on 2019-04-06
- * Project : design-pattern
- * Github : http://github.com/Siwoo-Kim
- */
+public class Coffee extends CaffeineBeverage {
 
-public class Coffee {
+    void brew() {
+        System.out.println("Brew Coffee grinds.");
+    }
+
+    void addCondiments() {
+        System.out.println("Add sugar and milk.");
+    }
+
 }
