@@ -29,6 +29,7 @@ public class MenuItem extends MenuComponent {
         return new NullIterator();
     }
 
+
     private class NullIterator implements Iterator {
         @Override
         public boolean hasNext() {
